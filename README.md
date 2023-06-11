@@ -124,27 +124,48 @@ C2
 Jump to second line, position 2
  
 ## Procedure:
+ 
  1. click on STM 32 CUBE IDE, the following screen will appear
   
+  ![img-1](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/f181d2b7-21a7-4997-b55b-77aa0487481f)
+
  2. click on FILE, click on new stm 32 project 
  
+ ![2](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/fb77279b-2418-4594-98f4-4e012db825f2)
+![3](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/28d89adf-1d48-453f-a1bd-e39d53daa6e8)
+
+
 3. select the target to be programmed  as shown below and click on next 
+
+![4](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/a94a3f2d-15a1-4179-8dcb-9cb3b0affb06)
+![5](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/92bf629c-04c7-4caf-a3f2-89e22a87743e)
 
 4.select the program name 
 
+
 5. corresponding ioc file will be generated automatically 
 
+![6](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/8eb55d46-ca9f-43a8-9188-6930fdcfbad7)
+
 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
+![7](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/d8593162-8dc0-4441-b38a-c699c90ce594)
+![8](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/f578482c-c7e4-4153-a767-764bea8c45bf)
 
 7.click on cntrl+S , automaticall C program will be generated 
+![9](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/5e98d16a-f7a2-43ff-9991-d42f40a970b3)
+![10](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/f1a71afd-6447-4f3d-802d-4ac7b9014c0b)
 
 8. edit the program and as per required 
+![11](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/68eb6d52-c5c0-4c44-bfdb-e14cfbc9b155)
 
 9. Add necessary library files of LCD 16x2 , write the program and use project and build  
+![12](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/3064627c-6f95-4e81-b845-a28ff37ee8e2)
 
 10. once the project is bulild 
+![13](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/62fc4271-f51e-4361-b8d6-b42470149272)
 
 11. click on debug option 
+![14](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/0f07086a-ba3a-4d7d-a3d2-1cc2603dacf6)
 
 12.  Creating Proteus project and running the simulation
 We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
@@ -152,10 +173,13 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 14. After creation of the circuit as per requirement as shown below 
 
+![14](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/3bab112e-fd87-444b-bd97-e472f3392247)
+
 15. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 16. click on debug and simulate using simulation as shown below 
+![15](https://github.com/vidhyadharan-03/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/114286357/d1af88be-c2b7-4945-b903-f198b66c97dd)
 
 ## STM 32 CUBE PROGRAM :
 ```
